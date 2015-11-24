@@ -712,7 +712,7 @@ CcspCrProcessDbusRequest
         dbus_int32_t tmp ;
         dbus_int32_t result ;
         componentStruct_t **components =0;
-        int size  = 0;
+        long size  = 0;
         char *name_space = 0;
         char *subsystem_prefix = 0;
 
